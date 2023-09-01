@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.color-box {
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin: 10px;
+}
+
+.top-info {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.heart-image {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: block; 
+  z-index: 1000;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  animation: popupFade 1s forwards;
+}
